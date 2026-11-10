@@ -1,0 +1,122 @@
+<!-- Aun Raza Khan 26i3272 Section B -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Corner - Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation Bar -->
+    <header>
+        <h1>CHAI CORNER</h1>
+        <nav>
+            <a href="index.html" style="color: white; margin: 0 15px; font-size: 20px; text-decoration: none;">Home</a> |
+            <a href="menu.html" style="color: white; margin: 0 15px; font-size: 20px; text-decoration: none; font-weight: bold;">Menu</a> |
+            <a href="contact.html" style="color: white; margin: 0 15px; font-size: 20px; text-decoration: none;">Contact</a>
+        </nav>
+    </header>
+
+    <main class="card">
+        <h2>OUR CAFÉ MENU</h2>
+        <br>
+        
+        <!-- Chai Display Image -->
+        <img src="images/chaip.jpg" alt="Chai Picture">
+        <br><br>
+
+        <!-- Beverages Section -->
+        <h2>BEVERAGES</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>SPECIAL CHAI</td>
+                <td>Rs 300</td>
+                <td><button onclick="addToCart()">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td>CHAI GUR</td>
+                <td>Rs 200</td>
+                <td><button onclick="addToCart()">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td>KASHMIRI CHAI</td>
+                <td>Rs 250</td>
+                <td><button onclick="addToCart()">Add to Cart</button></td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <!-- Bakery Section -->
+        <h2>BAKERY</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>SAMOSA</td>
+                <td>Rs 80</td>
+                <td><button onclick="addToCart()">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td>FRIES</td>
+                <td>Rs 150</td>
+                <td><button onclick="addToCart()">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td>CHEESE ROLL</td>
+                <td>Rs 180</td>
+                <td><button onclick="addToCart()">Add to Cart</button></td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <!-- Desserts Section -->
+        <h2>DESSERTS</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>GULAB JAMUN</td>
+                <td>Rs 120</td>
+                <td><button onclick="addToCart()">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td>KHEER</td>
+                <td>Rs 200</td>
+                <td><button onclick="addToCart()">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td>JALEBI</td>
+                <td>Rs 150</td>
+                <td><button onclick="addToCart()">Add to Cart</button></td>
+            </tr>
+        </table>
+    </main>
+
+    <!-- Footer -->
+    <footer style="margin-top: 40px; color: white; padding: 20px 0;">
+        <p>&copy; 2026 Chai Corner. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript Interactivity -->
+    <script>
+        function addToCart() {
+            window.alert('Item added to cart!');
+        }
+    </script>
+</body>
+</html>

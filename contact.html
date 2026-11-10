@@ -1,0 +1,73 @@
+<!-- Aun Raza Khan 26i3272 Section B -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Corner - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation Bar -->
+    <header>
+        <h1>CHAI CORNER</h1>
+        <nav>
+            <a href="index.html" style="color: white; margin: 0 15px; font-size: 20px; text-decoration: none;">Home</a> |
+            <a href="menu.html" style="color: white; margin: 0 15px; font-size: 20px; text-decoration: none;">Menu</a> |
+            <a href="contact.html" style="color: white; margin: 0 15px; font-size: 20px; text-decoration: none; font-weight: bold;">Contact</a>
+        </nav>
+    </header>
+
+    <main class="card">
+        <h2>CONTACT US</h2>
+        <br>
+
+        <!-- Café Information -->
+        <div style="font-size: 20px; margin-bottom: 30px; line-height: 1.8;">
+            <p><strong>Address:</strong> Street 12, F-7 Markaz, Islamabad</p>
+            <p><strong>Phone:</strong> +92 300 1234567</p>
+            <p><strong>Operating Hours:</strong> Monday – Sunday: 10:00 AM – 12:00 AM</p>
+        </div>
+
+        <!-- Feedback Form -->
+        <h2>FEEDBACK FORM</h2>
+        <form onsubmit="event.preventDefault(); submitFeedback();" style="margin-top: 20px;">
+            <table style="width: 100%; border: none; background-color: transparent;">
+                <tr>
+                    <td style="border: none; text-align: right; width: 30%; font-weight: bold;">Name:</td>
+                    <td style="border: none; text-align: left;">
+                        <input type="text" required style="width: 80%; padding: 8px; font-size: 16px; border: 2px solid #8D4925; border-radius: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none; text-align: right; font-weight: bold;">Email:</td>
+                    <td style="border: none; text-align: left;">
+                        <input type="email" required style="width: 80%; padding: 8px; font-size: 16px; border: 2px solid #8D4925; border-radius: 5px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none; text-align: right; font-weight: bold;">Message:</td>
+                    <td style="border: none; text-align: left;">
+                        <textarea rows="4" required style="width: 80%; padding: 8px; font-size: 16px; border: 2px solid #8D4925; border-radius: 5px;"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer style="margin-top: 40px; color: white; padding: 20px 0;">
+        <p>&copy; 2026 Chai Corner. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript Interactivity -->
+    <script>
+        function submitFeedback() {
+            window.alert('Thank you for contacting us!');
+        }
+    </script>
+</body>
+</html>
